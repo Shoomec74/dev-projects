@@ -1,0 +1,32 @@
+.profile__info {
+  max-width   : 336px;
+  min-height  : 74px;
+  margin-right: 27.73%;
+  display     : grid;
+  grid-template-areas:
+    "username username username button"
+    "about about about about";
+  align-items: center;
+  gap        : 0;
+}
+
+
+@media screen and (max-width: 769px) {
+  .profile__info {
+    max-width    : 300px;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .profile__info {
+    max-width     : 282px;
+    height        : 54px;
+    margin        : 0 auto;
+    justify-items : center;
+    align-items   : baseline;
+    padding-top   : 26px;
+    padding-bottom: 36px;
+    margin        : 0;
+  }
+}

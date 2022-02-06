@@ -1,0 +1,14 @@
+.form__popup-edit-profile {
+  display: flex;
+  max-width: 430px;
+  min-height: 330px;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 321px) {
+  .form__popup-edit-profile {
+    max-width: 282px;
+    min-height: 322px;
+  }
+}

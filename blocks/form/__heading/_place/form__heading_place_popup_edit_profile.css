@@ -1,0 +1,17 @@
+.form__heading_place_popup_edit_profile {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 900;
+  max-width: 330px;
+  padding: 34px 64px 54px 36px;
+}
+
+@media screen and (max-width: 321px) {
+  .form__heading_place_popup_edit_profile {
+    max-width: 282px;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 25px 0 75px;
+    margin: 0 22px;
+  }
+}
